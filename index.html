@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Teller og Regner</h1>
+        <form class="converter">
+            <label for="converter">From Converter</label>
+            <input type="text" name="converter" id="myInputID">
+
+            <label for="fromUnit">From</label>
+            <select name="fromUnit" id="fromValueID">
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+                <option value="km">KM</option>
+            </select>
+
+            <label for="toUnit">To</label>
+            <select name="toUnit" id="toValueID">
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+                <option value="km">KM</option>
+            </select>
+            <div class="center">
+                <button class="button" onclick="unitConverter()">Konverter</button>
+                </div>
+                <p class="p" id="displayValueID"></p>
+        </form>
+    </main>
+</body>
+</html>
