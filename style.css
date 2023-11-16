@@ -9,6 +9,10 @@ h1 {
     color: black;
 }
 
+.gitHub {
+    color: black;
+}
+
 .converter {
     min-height: 100vh;
  display: flex;
